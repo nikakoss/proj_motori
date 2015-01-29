@@ -1,0 +1,53 @@
+.ie .button,
+.ie .mainMenu .item,
+.ie .submenu .itemSub,
+.ie .blockSidebarTitle a.linkMore,
+.ie .blockSidebarContent .item .itemDateWrap .itemDate .number,
+.ie .blockSidebarContent .item .itemDateWrap .itemDate .monthYear,
+.ie .numpages .numpItem,
+.ie .basketTable .tableTitleCol,
+.ie .basketTable .tableItem .tableItemCol,
+.ie .cabinetTable .tableTitleCol,
+.ie .cabinetTable .tableItem .tableItemCol,
+.ie .productWarranty .warrantyValue,
+.ie .productComments .commentItem .itemDate .number,
+.ie .productComments .commentItem .itemDate .monthYear,
+.ie .compareTabs .compareTab,
+.ie .tableProduct.compare span,
+.ie .footerMenu .itemFooterMenu,
+.ie .socialLinks .itemSoc {
+    zoom: 1;
+    *display: inline;
+}
+.ie .headerWrapper,
+.ie .blockSidebarContent .item .itemDateWrap .itemDate,
+.ie .bannerLeftColumn .itemCompare,
+.ie .bannerLeftColumn,
+.ie .bannerLeftColumn .itemWrap,
+.ie .listProducts .itemProduct,
+.ie .listProducts .itemProduct .itemWrap,
+.ie .listProducts .itemProduct .itemCompare,
+.ie .ui-accordion-header,
+.ie .blockProduct,
+.ie .productAccordion .accordionTitle,
+.ie .productComments .commentItem .itemDate,
+.ie .reveal-modal {
+    behavior: url(/css/pie/PIE.htc);
+}
+.ie .headerWrapper {
+    -pie-background-image: linear-gradient(90deg, #f6f6f6 0%, #ffffff 100%);
+}
+.ie .headerTopbar {
+    overflow: hidden;
+}
+.ie .reveal-modal-bg {
+    background:transparent;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#80000000,endColorstr=#80000000);
+    zoom: 1;
+}
+.ie .listProducts .itemProduct .itemWrap {
+    width: 156px;
+}
+.ie .bannerLeftColumn.product {
+    background: none;
+}
